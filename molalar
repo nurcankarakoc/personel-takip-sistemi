@@ -1,0 +1,6 @@
+CREATE TABLE molalar (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    personel_id INT NOT NULL,
+    baslangic_zamani DATETIME NOT NULL,
+    bitis_zamani DATETIME DEFAULT NULL
+);

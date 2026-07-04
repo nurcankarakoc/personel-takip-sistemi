@@ -1,0 +1,14 @@
+# Genellikle ignore edilmesi gerekenler (PHP ve Web projeleri için)
+/vendor/
+/node_modules/
+/composer.lock
+
+# Log ve geçici dosyalar
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# MySQL / XAMPP data dosyaları (sizin sorununuzun kaynağı)
+# mysql/data/ içindeki her şeyi hariç tutar.
+mysql/data/
